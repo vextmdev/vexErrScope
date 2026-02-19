@@ -12,12 +12,12 @@ import (
 const usage = `vexErrScope - Scan logs and stack traces for error patterns
 
 Usage:
-  vexErrScope explain <file>    Analyze error in file
-  vexErrScope explain           Read from stdin
-  vexErrScope help              Show this help
+  ./vexErrScope explain <file>    Analyze error in file
+  ./vexErrScope explain           Read from stdin
+  ./vexErrScope help              Show this help
 
 Examples:
-  vexErrScope explain crash.log
+  ./vexErrScope explain crash.log
   cat error.txt | vexErrScope explain
 `
 
